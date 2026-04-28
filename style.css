@@ -1,0 +1,130 @@
+body{
+    h2{
+        text-align: center;
+        margin-top: 50px;
+        color: #022962;
+        /* background-color: #022962; */
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 12500;
+        font-size: 30px;
+    }
+    p{
+        margin: 5px;
+        padding: 5px;
+    }
+}
+    h1{
+        text-align: center;
+    }
+    img{
+        width: 250px;
+        margin-left: 485px;
+    }
+   
+   .nav{
+    /* align-items: center */
+    
+    ul{
+        /* width: 60vw; */
+        /* border: 2px solid wheat; */
+        /* height: 35px; */
+        display: flex;
+list-style-type: none;
+gap: 10px;
+justify-content: center;
+background-color: #7096d1;
+
+    }
+    nav li{
+        padding: 15px 20px;
+    }
+    nav a:hover{
+        color: #503E56;
+    }
+   }
+
+   .dept{
+    ul{
+        padding: 15px
+    };
+    ul li{
+        padding: 5px;
+    }
+   }
+   .news{
+    marquee{
+        color: rgb(1, 1, 239);
+    }
+   }
+   .button{
+    /* text-align: center; */
+    margin-top: 35px;
+    button{
+        width: 100px;
+        height: 25px;
+        border-radius: 8px;
+        border: 1px ;
+        background-color: #7096d1 ;
+
+    }
+    button:hover{
+        cursor: pointer;
+        background-color: #126fb2;
+    }
+   }
+    .foot{
+        margin-top: 50px;
+    }
+    .achievements{
+        ul li{
+            padding: 5px;
+        }
+    }
+    .list{
+        ul li{
+            padding: 5px;
+        }
+    }
+    .prog{
+        ol li{
+                        padding: 5px;
+
+        }
+    }
+    .course{
+        dl dt{
+            padding: 5px;
+        }
+    }
+    .faculty{
+        padding: 5px;
+    }
+    .contact{
+        ul li{
+            padding: 5px;
+        }
+    }
+    .btn{
+        margin-top: 35px;
+    
+        width: 200px;
+        height: 50px;
+        border-radius: 8px;
+        border: 1px ;
+        background-color: #7096d1 ;
+        font-size: 20px;
+        /* button:hover
+        {
+            cursor: pointer;
+        background-color: #126fb2;
+        } */
+    }
+    .form{
+        /* padding: 10px;
+         */
+         display: flex;
+         flex-direction: column;
+         max-width: 300px;
+         gap: 15px;
+         padding: 20px;
+    }
